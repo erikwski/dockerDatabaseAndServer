@@ -7,7 +7,7 @@ Necessario docker e docker-compose sulla propria macchina.
 ## Getting Started
 
 - Nel file init.sql vai ad inserire le query di creazione delle tabelle del DB che verranno eseguite al primo start
-- Lancia il comando: ** docker-compose up **
+- Lancia il comando: **docker-compose up**
 - Ora quando modificherai i file del server node grazie al package nodemon il server si riavvierá in automatico
 
 
@@ -21,4 +21,4 @@ PASSWORD: mypassword
 
 DB: mydatabase
 
-Tutte queste info sono modificabili nel file ** docker-compose.yml **
+Tutte queste info sono modificabili nel file **docker-compose.yml**
