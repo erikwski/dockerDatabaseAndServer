@@ -1,0 +1,14 @@
+FROM node:16
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+ENTRYPOINT ["nodemon", "/app/server.js"]  
+CMD ["npm", "run", "dev"]
